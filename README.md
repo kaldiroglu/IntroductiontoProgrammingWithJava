@@ -11,7 +11,7 @@ Please reach me at akin@javaturk.org for further assistance and suggestions.)
 Bu kursun kök paketi `org.javaturk.ipj` adresinden **`dev.kaldiroglu.java.ip`** olarak yeniden adlandırılmıştır. Yeni isimlendirme şu kuralı izler:
 
 ```
-dev.kaldiroglu.<dil>.<kurs kodu>
+dev.kaldiroglu.<dil>.<eğitim kodu>
 ```
 
 `.java` segmenti zaten dili kodladığı için eski isimdeki sondaki `j` (`ipj`) artık gereksiz olduğu için kaldırılmıştır. Eski notlarınızda veya slaytlarınızda `org.javaturk.ipj.…` referanslarını `dev.kaldiroglu.java.ip.…` ile değiştirin. Sınıf adları, dosya adları ve bölüm numaraları değişmedi.

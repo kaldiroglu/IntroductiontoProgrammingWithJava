@@ -1,0 +1,56 @@
+@startuml
+
+
+class Receipt {
+~ long id
+~ Date date
+}
+
+class Doctor {
+~ String id
+~ String name
+~ String field
++ Prescription inspect(Patient)
++ void operate(Patient)
+}
+
+
+class Hospital {
+~ String name
+~ Doctor[] doctors
+~ Patient[] patients
++ boolean appointment(Date)
++ Receipt receive(int)
+}
+
+
+class Patient {
+~ String id
+~ String name
+~ char sex
+~ int age
+~ String[] illnesses
++ void takeMedication(Prescription)
++ void visitedBy(String)
+}
+
+
+class Prescription {
+~ long id
+~ Doctor doctor
+~ Patient patient
+~ Date date
+~ String[] medications
+}
+
+Hospital ||--o{ Doctor
+Hospital ||--o{ Patient
+Doctor   ||--o{ Patient
+
+Prescription --> Doctor
+Prescription --> Patient
+Patient --> Prescription
+Patient --> Doctor
+Receipt --> Prescription
+
+@enduml
