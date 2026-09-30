@@ -1,0 +1,17 @@
+I am a trainer who teaches Java to new comers and I want you to develop a game for me.
+
+This is a number guessing game played between the computer and a person, who is the player.
+The player holds a 4-digit number in her memory and the computer tries to find
+it by giving several guesses.
+
+The number can't have any repeating digit and can't start
+with 0. Each try that the program that you develop makes is a 4-digit number and the player evaluates
+the guess and return an answer with some description or feedback. The feedback has + (plus) for
+each digit in correct place and - (minus) for each digit in wrong place.
+For example the player holds 5174 and the computer's guess is 1234 the the answer would
+be +1 and -1. Second guess might be 6890 and then the answer would be 0.
+Whenever the answer is +4 then it means the guess is correct which means the computer
+guesses the number correctly and the game finishes.
+
+Can you give me the code for this game in Java? Please use a basic array to store numbers, don't use List or any other
+collection of Java. This code will be used in a training to teach Java to my students. So make the code clean.

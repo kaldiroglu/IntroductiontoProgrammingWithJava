@@ -1,0 +1,31 @@
+// This is a file that depicts what a stack class should look like in Java.
+// It includes method signatures and comments describing their functionality.
+
+// Default maximum stack size
+public static int MAX_STACK_SIZE;
+
+// Put element on the top
+public boolean push(String newElement) {}
+
+// Pop element from the top
+public String pop() {...}
+
+// Remove all elements from stack
+public void clear() {...}
+
+// Stack status operations
+
+// Is stack empty?
+public boolean isEmpty() {...}
+
+// Is stack full?
+public boolean isFull() {...}
+
+// How many elements in stack?
+public int size() {...}
+
+// Capacity of stack?
+public int getCapacity() {...}
+
+// Outputs the elements in the stack
+public void showElements() {}

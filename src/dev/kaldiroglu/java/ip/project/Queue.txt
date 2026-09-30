@@ -1,0 +1,31 @@
+// This is a file that depicts what a queue class should look like in Java.
+// It includes method signatures and comments describing their functionality.
+
+// Default maximum queue size
+public static int MAX_QUEUE_SIZE;
+
+// Insert element at the bottom
+public boolean enqueue(String newElement) {}
+
+// Remove element from the top
+public String dequeue() {...}
+
+// Remove all elements from queue
+public void clear() {...}
+
+// Queue status operations
+
+// Is queue empty?
+public boolean isEmpty() {...}
+
+// Is queue full?
+public boolean isFull() {...}
+
+// How many elements in queue?
+public int size() {...}
+
+// Capacity of queue?
+public int getCapacity() {...}
+
+// Outputs the elements in the queue.
+public void showElements() {}

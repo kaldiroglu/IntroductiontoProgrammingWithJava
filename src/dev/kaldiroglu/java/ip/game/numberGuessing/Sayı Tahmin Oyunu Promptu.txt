@@ -1,0 +1,18 @@
+Ben yeni başlayanlara Java öğreten bir eğitmenim ve sizin benim için bir oyun geliştirmenizi istiyorum.
+
+Bu, bilgisayar ile oyuncu olan kişi arasında oynanan bir sayı tahmin oyunudur.
+Oyuncu hafızasında 4 basamaklı bir sayı tutar ve bilgisayar birkaç tahminde bulunarak
+bu sayıyı bulmaya çalışır.
+
+Sayıda tekrarlanan basamak olamaz ve
+0 ile başlayamaz. Geliştirdiğiniz programın her denemesi 4 basamaklı bir sayıdır ve oyuncu
+tahmini değerlendirir ve bir açıklama veya geri bildirim ile cevap verir. Geri bildirimde, doğru yerde olan
+her basamak için + (artı) ve yanlış yerde olan her basamak için - (eksi) işareti bulunur.
+Örneğin, oyuncu 5174'ü aklında tutarken bilgisayarın tahmini 1234 ise, cevap
++1 ve -1 olur. İkinci tahmin 6890 olabilir ve bu durumda cevap 0 olur.
+Cevap +4 olduğunda, tahmin doğrudur, yani bilgisayar
+sayıyı doğru tahmin etmiştir ve oyun biter.
+
+Bu oyunun Java kodunu bana verebilir misiniz? Sayıları depolamak için temel bir dizi kullanın, List veya başka bir
+Java koleksiyonu kullanmayın. Bu kod, öğretmek için bir eğitimde kullanılacaktır.
+
