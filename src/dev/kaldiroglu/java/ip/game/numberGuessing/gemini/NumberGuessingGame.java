@@ -1,4 +1,4 @@
-package dev.kaldiroglu.java.ip.numberGuessing.gemini;
+package dev.kaldiroglu.java.ip.game.numberGuessing.gemini;
 
 /**
  * Gemini 2.5 Pro 12062025

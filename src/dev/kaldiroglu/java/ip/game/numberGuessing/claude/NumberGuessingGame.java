@@ -1,4 +1,4 @@
-package dev.kaldiroglu.java.ip.numberGuessing.claude;
+package dev.kaldiroglu.java.ip.game.numberGuessing.claude;
 
 /*
  Claude Sonnet 4.0 12062025
